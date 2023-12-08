@@ -21,14 +21,5 @@
             "category": "feature",
             "icon": "fas fa-ghost"
         }
-    },
-    "require-dev": {
-        "flarum/phpstan": "^1.8",
-        "flarum/testing": "^1.0.0"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FoF\\BestAnswer\\Tests\\": "tests/"
-        }
     }
 }
