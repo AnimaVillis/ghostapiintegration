@@ -23,10 +23,10 @@
             "title": "Ghost API Integration",
             "category": "feature"
         }
-    }
+    },
     "autoload": {
         "psr-4": {
             "Animavillis\\GhostApiIntegration\\": "src/"
         }
-    },
+    }
 }
