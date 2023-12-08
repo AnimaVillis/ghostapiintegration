@@ -6,8 +6,7 @@ use Illuminate\Contracts\Events\Dispatcher;
 return [
     (new Extend\Frontend('admin'))
         ->js(__DIR__.'/js/admin/admin.js')
-        ->css(__DIR__.'/resources/less/admin.less')
-        ->view('custom-settings', 'resources\views\admin\extensions\ghostapiintegration.blade.php'),
+        ->css(__DIR__.'/resources/less/admin.less'),
         
     (new Extend\Frontend('admin'))
         ->content(GhostApiIntegration\AdminPage::class),
