@@ -2,6 +2,7 @@
     "name": "animavillis/ghostapiintegration",
     "description": "Integration with Ghost API for Flarum",
     "type": "flarum-extension",
+    "minimum-stability": "dev",
     "require": {
         "flarum/core": "^1.0"
     },
