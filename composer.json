@@ -21,8 +21,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Ghost API Integration",
-            "category": "feature",
-            "icon": "fas fa-ghost"
+            "category": "feature"
         }
     }
 }
