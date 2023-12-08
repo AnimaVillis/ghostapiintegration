@@ -2,6 +2,7 @@
     "name": "animavillis/ghostapiintegration",
     "description": "Integration with Ghost API for Flarum",
     "type": "flarum-extension",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "flarum"
