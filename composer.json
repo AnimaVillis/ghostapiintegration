@@ -2,14 +2,33 @@
     "name": "animavillis/ghostapiintegration",
     "description": "Integration with Ghost API for Flarum",
     "type": "flarum-extension",
-    "minimum-stability": "stable",
+    "keywords": [
+        "flarum"
+    ],
     "require": {
-        "flarum/core": "^1.0"
+        "flarum/core": "^1.8.3",
+        "flarum/tags": "*"
     },
+    "authors": [
+        {
+            "name": "Piotr",
+            "role": "Developer"
+        }
+    ],
     "extra": {
         "flarum-extension": {
             "title": "Ghost API Integration",
+            "category": "feature",
             "icon": "fas fa-ghost"
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "^1.8",
+        "flarum/testing": "^1.0.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FoF\\BestAnswer\\Tests\\": "tests/"
         }
     }
 }
