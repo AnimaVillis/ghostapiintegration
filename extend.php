@@ -19,6 +19,6 @@ use Flarum\User\User;
 
 return [
     (new Extend\Frontend('admin'))
-        ->js(__DIR__.'/js/forum/main.js')
-        ->css(__DIR__.'/less/forum/main.less'),
+        ->js(__DIR__.'/js/forum/admin.js')
+        ->css(__DIR__.'/resources/less/admin.less'),
 ];
